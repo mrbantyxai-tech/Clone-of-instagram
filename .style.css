@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.d-ib{
+    display: inline-block;
+}
+.d-b{
+    display: block;
+}
+.p-0{
+    padding:0px 0px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.d-ib{
+    display: inline-block;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 5px 0px;
+    height: 90px;
+}
+
+.container{
+    width: 100%;
+    padding: 0px 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo{
+    width: 20%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.logo img{
+    width: 80%;
+}
+
+.searchbox{
+    width: 60%;
+    padding: 40px 0px;
+    text-align: center;
+}
+.searchbox input{
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.382);
+    width: 80%;
+    padding: 10px;
+}
+
+.btn{
+    width: 10%;
+    padding: 42px 0px;
+}
+.btn button{
+    border: none;
+    border-radius: 16px;
+    padding: 8px 16px;
+    background: linear-gradient(to right, #ff7e5f, #fd3a84);
+    color: white;
+    cursor: pointer;
+}
+
+.icon{
+    width: 10%;
+    padding: 45px 0px;
+    cursor: pointer;
+}
+.icon i{
+    font-size: 25px;
+    color: white;
+}
+
+.container2{
+    width: 100%;
+    color: white;
+}
+
+.sidebar{
+    margin-top: 40px;
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid white;
+}
+.sidebar ul li i{
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 0px;
+}
+.sidebar ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+.sidebar ul li:hover{
+    background-color: rgba(188, 188, 188, 0.216);
+    border-radius: 10px;
+}
+
+.profile{
+    height: 35px;
+}
+.dp{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.dp img{
+    width: 100%;
+}
+.p-text{
+    height: 30px;
+    padding: 9px 0px;
+}
+.main-area{
+    width: 630px;
+    height: 100vh;
+    margin-left: 250px;
+}
+.storys{
+    padding-top: 8px;
+}
+.storys .users{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 12px;
+    background-image: url('../images/circle.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.users img{
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.8);
+}
+
+.username{
+    font-size: 12px;
+    width: 80px;
+    text-align: center;
+}
+.username2{
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+    padding-left: 10px;
+}
+.username3{
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}
+
+.post-box{
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    padding-left: 70px;
+}
+
+.top-grid{
+    width: 470px;
+}
+.top-grid .circle-dp{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-image: url('../images/circle.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.top-grid .circle-dp img{
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.circle-dp-uname{
+    margin-left: 10px;
+    height: 30px;
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.circle-dp-uname p{
+    color: gray;
+    margin-left: 5px;
+}
+.circle-dp-uname .blue{
+    color: #4692DD;
+}
+.circle-dp-uname .ri-circle-fill{
+    font-size: 4px;
+    padding: 3px;
+}
+.top-grid .three-dots{
+   padding: 10px 0px;
+   cursor: pointer;
+}
+
+.postimg-area{
+    width: 470px;
+    cursor: pointer;
+}
+.postimg-area img{
+    width: 100%;
+}
+
+.bottom-grid{
+    width: 470px;
+    height: 40px;
+    font-size: 25px;
+}
+.bottom-icons i{
+    margin-right: 5px;
+}
+
+.likes{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.bottom-para{
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.add-cmt input{
+    margin-top: 5px;
+    border: none;
+    background-color: transparent;
+    width: 470px;
+}
+
+hr{
+    width: 470px;
+    margin-top: 15px;
+}
+
+
+.right-bar{
+    width: 380px;
+    height: 100vh;
+}
+.r-bar-contant{
+    widows: 319px;
+    margin-left: 20px;
+    padding: 25px 10px;
+}
+.your-profile{
+    height: 50px;
+}
+.right-bar .circle-dp{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-image: url('../images/circle.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.right-bar .circle-dp img{
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.r-bar-name{
+    font-weight: 300;
+    color: rgb(203, 203, 203);
+}
+.a-tag{
+    padding: 10px 0px;
+}
+.a-tag a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0, 140, 255);
+}
+
+.suggested{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.suggested-text{
+    margin-bottom: 15px;
+}
+.suggested-text .suggest{
+    color: gray;
+}
+
+.suggested-user{
+    margin-bottom: 15px;
+    height: 50px;
+}
